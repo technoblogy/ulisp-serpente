@@ -1,6 +1,6 @@
 # uLisp for Serpente boards
 
-The Arturo182 Serpente boards are based on the Microchip ATSAMD21E, an ARM Cortex M0+ CPU with a 48 MHz clock. There are three variants which differ only in the type of USB connector provided.
+This is a version of uLisp 3.0 designed to work with the tiny Arturo182 Serpente boards. I've also included an Arduino Core that is needed by uLisp. You could also use this to program the Serpente boards in C from the Arduino IDE.
 
 For full information about the Serpente boards see: [Serpente Documentation](https://serpente.solder.party).
 
@@ -17,9 +17,9 @@ Now upload the file **ulisp-serpente.ino**, and when you open the Arduino **Seri
 
 #### Description
 
-Each board provides 256 KB flash and 32 KB RAM, and also include a separate 4 MB SPI DataFlash chip which is used by uLisp to allow you to save the Lisp image using (save-image).
+These boards are based on the Microchip ATSAMD21E, an ARM Cortex M0+ CPU with a 48 MHz clock. There are three variants which differ only in the type of USB connector provided. Each board provides 256 KB flash and 32 KB RAM, and also include a separate 4 MB SPI DataFlash chip which is used by uLisp to allow you to save the Lisp image using (save-image).
 
-These boards all have similar performance to the Arduino Zero and other Adafruit M0 boards when running uLisp; for example, they run the Tak benchmark in 14 secs; see Performance.
+These boards all have similar performance to the Arduino Zero and other Adafruit M0 boards when running uLisp; for example, they run the Tak benchmark in 14 secs; see [Performance](http://www.ulisp.com/show?3M#performance).
 
 Install the ARM version of uLisp for use with these boards.
 
