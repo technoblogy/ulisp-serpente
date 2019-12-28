@@ -41,6 +41,7 @@ Apart from the power pins the boards provide six multi-purpose pins:
 The Serpente has an RGB LED connected to the following Arduino pin numbers:
 
 | Pin | Functions |
+| --- | --------- |
 | D6 | Red. |
 | D7 | Green. |
 | D8 | Blue. |
