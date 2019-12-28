@@ -1,8 +1,8 @@
-### uLisp for Serpente boards
+# uLisp for Serpente boards
 
 The Arturo182 Serpente boards are based on the Microchip ATSAMD21E, an ARM Cortex M0+ CPU with a 48 MHz clock. There are three variants which differ only in the type of USB connector provided.
 
-For full information about the Serpente boards see: https://serpente.solder.party<Serpente Documentation>.
+For full information about the Serpente boards see: [Serpente Documentation](https://serpente.solder.party).
 
 #### Installing the Serpente core
 
