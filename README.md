@@ -1,6 +1,10 @@
 # uLisp for Serpente boards
 
-This is a version of uLisp 3.0 designed to work with the tiny Arturo182 Serpente boards; it's a slightly modified of the ARM version of uLisp; at some stage I may incorporate it into the standard ARM version.
+This is a version of uLisp 3.0 designed to work with the tiny Arturo182 Serpente boards:
+
+![image|580x360](http://www.ulisp.com/pictures/3j/serpente.jpg) 
+
+it's a slightly modified of the ARM version of uLisp; at some stage I may incorporate it into the standard ARM version.
 
 I've also created an Arduino Core that is needed by uLisp. You could also use this on its own to program the Serpente boards in C from the Arduino IDE.
 
