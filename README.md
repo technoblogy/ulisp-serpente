@@ -1,7 +1,21 @@
-# ulisp-serpente
-#### uLisp for Serpente boards
+### uLisp for Serpente boards
 
 The Arturo182 Serpente boards are based on the Microchip ATSAMD21E, an ARM Cortex M0+ CPU with a 48 MHz clock. There are three variants which differ only in the type of USB connector provided.
+
+For full information about the Serpente boards see: https://serpente.solder.party<Serpente Documentation>.
+
+#### Installing the Serpente core
+
+To enable the boards to be used with uLisp, and upload uLisp from the Arduino IDE, I've created an Arduino Core for the Serpente boards which you need to install as follows before proceeding:
+
+* Download the folder **SerpenteCore**.
+* Move it into your **Arduino/hardware** folder.
+
+When you restart the Arduino IDE there should be a new heading **Arturo182 Serpente Boards** on the **Boards** submenu with a single **Serpente** entry.
+
+Now upload the file **ulisp-serpente.ino**, and when you open the Arduino **Serial Monitor** you should see the uLisp prompt.
+
+#### Description
 
 Each board provides 256 KB flash and 32 KB RAM, and also include a separate 4 MB SPI DataFlash chip which is used by uLisp to allow you to save the Lisp image using (save-image).
 
@@ -9,7 +23,7 @@ These boards all have similar performance to the Arduino Zero and other Adafruit
 
 Install the ARM version of uLisp for use with these boards.
 
-### I/O pins
+#### I/O pins
 
 Apart from the power pins the boards provide six multi-purpose pins:
 
@@ -22,7 +36,7 @@ Apart from the power pins the boards provide six multi-purpose pins:
 | D4 | Digital I/O, analogue input, PWM, SDA, TX. |
 | D5 | Digital I/O, analogue input, PWM, SCL, RX. |
 
-### LED
+#### LED
 
 The Serpente has an RGB LED connected to the following Arduino pin numbers:
 
