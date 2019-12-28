@@ -40,18 +40,24 @@ Apart from the power pins the boards provide six multi-purpose pins:
 
 The Serpente has an RGB LED connected to the following Arduino pin numbers:
 
-Pin	Functions
-D6	Red. 
-D7	Green.
-D8	Blue.
+| Pin | Functions |
+| D6 | Red. |
+| D7 | Green. |
+| D8 | Blue. |
+
+It's currently not quite working correctly; hopefully this will be fixed in a future release.
+
 You can flash it red with the following program:
 
+````text
 (defun blink (&optional x)
   (pinmode 6 t)
   (digitalwrite 6 x)
   (delay 1000)
   (blink (not x)))
+````
 Run it by typing:
 
-(blink)
+    (blink)
+
 Exit from the program by entering ~.
