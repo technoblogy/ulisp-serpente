@@ -21,7 +21,7 @@ To enable the boards to be used with uLisp, and upload uLisp from the Arduino ID
 
 When you restart the Arduino IDE there should be a new heading **Arturo182 Serpente Boards** on the **Boards** submenu with a single **Serpente** entry.
 
-Now upload the file **ulisp-serpente.ino**, and when you open the Arduino **Serial Monitor** you should see the uLisp prompt.
+Now upload the file **ulisp-serpente.ino**. NOTE: this will overwrite CircuitPython. When you open the Arduino **Serial Monitor** you should then see the uLisp prompt.
 
 #### Description
 
