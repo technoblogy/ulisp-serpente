@@ -4,7 +4,7 @@ This is a version of uLisp 3.0 designed to work with the tiny Arturo182 Serpente
 
 ![image](http://www.ulisp.com/pictures/3j/Serpente-small.jpg) 
 
-it's a slightly modified of the ARM version of uLisp; at some stage I may incorporate it into the standard ARM version.
+It's a slightly modified of the ARM version of uLisp; at some stage I may incorporate it into the standard ARM version. For more information about uLisp see: [uLisp - Lisp for microcontrollers](http://www.ulisp.com/show?3M).
 
 I've also created an Arduino Core that is needed by uLisp. You could also use this on its own to program the Serpente boards in C from the Arduino IDE.
 
