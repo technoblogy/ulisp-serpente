@@ -6,6 +6,8 @@ I've also created an Arduino Core that is needed by uLisp. You could also use th
 
 For full information about the Serpente boards see: [Serpente Documentation](https://serpente.solder.party).
 
+To buy the boards se: [Serpente - A Tiny CircuitPython Prototyping Board](https://www.tindie.com/products/arturo182/serpente-a-tiny-circuitpython-prototyping-board/) on Tindie.
+
 #### Installing the Serpente core
 
 To enable the boards to be used with uLisp, and upload uLisp from the Arduino IDE, first install the Arduino Core as follows:
