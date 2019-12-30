@@ -35,12 +35,12 @@ Apart from the power pins the boards provide six multi-purpose pins:
 
 | Label | Functions |
 | ----- | --------- |
-| D0 | Digital I/O, analogue input, PWM, MOSI. |
-| D1 | Digital I/O, analogue input, PWM, SCK. |
-| D2 | Digital I/O, analogue input, PWM, MISO. |
-| D3 | Digital I/O, analogue input, PWM. |
-| D4 | Digital I/O, analogue input, PWM, SDA, TX. |
-| D5 | Digital I/O, analogue input, PWM, SCL, RX. |
+| D0 | Digital I/O, analogue input, analogue output (PWM), MOSI. |
+| D1 | Digital I/O, analogue input, analogue output (PWM), SCK. |
+| D2 | Digital I/O, analogue input, analogue output (PWM), MISO. |
+| D3 | Digital I/O, analogue input, analogue output (PWM). |
+| D4 | Digital I/O, analogue input, analogue output (PWM), SDA, TX. |
+| D5 | Digital I/O, analogue input, analogue output (PWM), SCL, RX. |
 
 #### LED
 
