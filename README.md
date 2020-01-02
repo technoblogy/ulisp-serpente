@@ -6,7 +6,7 @@ This is a version of uLisp 3.0 designed to work with the tiny Arturo182 Serpente
 
 It's a slightly modified of the ARM version of uLisp; at some stage I may incorporate it into the standard ARM version. For more information about uLisp see: [uLisp - Lisp for microcontrollers](http://www.ulisp.com/show?3M).
 
-I've also created an Arduino Core that is needed by uLisp. You could also use this on its own to program the Serpente boards in C from the Arduino IDE.
+I've also created an Arduino Core that is needed by uLisp. You could also use this on its own to program the Serpente boards in C from the Arduino IDE. It's available from https://github.com/technoblogy/serpente-core.
 
 For full information about the Serpente boards see: [Serpente Documentation](https://serpente.solder.party).
 
@@ -16,7 +16,7 @@ To buy the boards see: [Serpente - A Tiny CircuitPython Prototyping Board](https
 
 To enable the boards to be used with uLisp, and upload uLisp from the Arduino IDE, first install the Arduino Core as follows:
 
-* Download the folder **SerpenteCore**.
+* Download the folder **serpente-core** from https://github.com/technoblogy/serpente-core.
 * Move it into your **Arduino/hardware** folder.
 
 When you restart the Arduino IDE there should be a new heading **Arturo182 Serpente Boards** on the **Boards** submenu with a single **Serpente** entry.
