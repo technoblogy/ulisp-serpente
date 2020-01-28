@@ -1,4 +1,4 @@
-Â# uLisp for Serpente boards
+## uLisp for Serpente boards
 
 This is a version of uLisp 3.0 designed to work with the Arturo182 Serpente boards:
 
