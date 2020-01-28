@@ -17,6 +17,7 @@ To buy the boards see: [Serpente - A Tiny CircuitPython Prototyping Board](https
 To enable the boards to be used with uLisp, and upload uLisp from the Arduino IDE, first install the Arduino Core as follows:
 
 * Download the Serpente core from: https://github.com/technoblogy/serpente-core.
+
 * Move it into your **Arduino/hardware** folder.
 
 When you restart the Arduino IDE there should be a new heading **Arturo182 Serpente Boards** on the **Boards** submenu with a single **Serpente** entry.
